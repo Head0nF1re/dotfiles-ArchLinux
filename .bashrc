@@ -1,6 +1,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+set -o noclobber
+
 [[ -f ~/.bash_aliases ]] && . ~/.bash_aliases
 
 # GIT FUNCTIONS

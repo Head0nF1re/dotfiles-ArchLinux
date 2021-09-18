@@ -1,0 +1,15 @@
+[user]
+	name = Head0nF1re
+	email = 77078775+Head0nF1re@users.noreply.github.com
+[core]
+    excludesfile = $HOME/.gitignore_global
+    editor = nvim
+    pager = less
+[commit]
+    template = ~/.git_template
+[color]
+    ui = auto
+[help]
+    autocorrect = 0
+[credential]
+	helper = /usr/lib/git-core/git-credential-libsecret

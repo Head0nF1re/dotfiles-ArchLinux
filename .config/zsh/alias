@@ -1,0 +1,11 @@
+# ==== Alias ====
+alias nv="nvim"
+alias notes="nvim ~/vimwiki/index.wiki"
+alias dotgit='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias zoom='us.zoom.Zoom'
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias diff='diff --color=auto'
+
+alias config="cd ~/.config/"

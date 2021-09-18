@@ -2,11 +2,11 @@
 
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:="$HOME/.config"}
 
-export PATH="$PATH:$HOME/.local/bin/i3blocks"
+export PATH="$PATH:$HOME/.local/bin:$HOME/.local/bin/i3blocks"
 
 # Terminal Colors
 export CLICOLOR=1
-export LSCOLORS=ExGxFxdxCxDxDxxbaDecac
+# export LS_COLORS
 
 export EDITOR="nvim"
 export VISUAL="nvim"
@@ -15,6 +15,8 @@ export BROWSER="firefox"
 export PAGER="less"
 export READER="evince"
 export WM="i3"
+
+export RANGER_LOAD_DEFAULT_RC="FALSE"
 
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
