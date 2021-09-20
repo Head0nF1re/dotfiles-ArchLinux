@@ -1,4 +1,3 @@
-#!/bin/zsh
 # ==== Functions ====
 
 # Line break after each command except the first one
