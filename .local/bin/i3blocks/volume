@@ -1,0 +1,21 @@
+#!/bin/bash
+
+VOLUME=$(amixer sget Master | awk -F "[][]" '/Left:/ { print $2, $4}')
+
+if [[ ${VOLUME%\%*} -eq 0 || ${VOLUME##* } == "off" ]]; then
+    echo -e "\U1F507 ${VOLUME%% *}"
+    exit 0
+fi
+
+
+if [ ${VOLUME%\%*} -ge 50 ]; then
+    echo -e "\U1F50A ${VOLUME% *}"
+    exit 0
+
+elif [ ${VOLUME%\%*} -lt 50 ]; then
+    echo -e "\U1F509 ${VOLUME% *}"
+    exit 0
+fi
+
+echo "Error"
+exit 1
