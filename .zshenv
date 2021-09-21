@@ -1,10 +1,10 @@
 typeset -U PATH path
 
 export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:="$HOME/.config"}
+export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}
+export XDG_CACHE_HOME=${XDG_CACHE_HOME:="$HOME/.cache"}
 
-# Path
-path=("$HOME/.local/bin" "$HOME/.local/bin/i3blocks" "$path[@]")
-export PATH
+export LESSHISTFILE=-
 
 export EDITOR="nvim"
 export VISUAL="nvim"
@@ -15,6 +15,10 @@ export READER="evince"
 export WM="i3"
 
 export RANGER_LOAD_DEFAULT_RC="FALSE"
+
+# Path
+path=("$HOME/.local/bin" "$HOME/.local/bin/i3blocks" "$path[@]")
+export PATH
 
 # Start blinking
 export LESS_TERMCAP_mb=$(tput bold; tput setaf 2) # green
