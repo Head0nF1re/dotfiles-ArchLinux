@@ -245,6 +245,8 @@ dir_node_exact_matches = {
     'Public'                           : '',
     'Templates'                        : '',
     'Videos'                           : '',
+    'Code'                             : '',
+    'dotfiles'                         : '',
 # Spanish
     'Escritorio'                       : '',
     'Documentos'                       : '',
