@@ -17,12 +17,13 @@ default_border pixel 2
 default_floating_border pixel 2
 
 # gaps
-gaps inner 10
-gaps outer 10
+gaps inner 8
+gaps outer 5
 
 for_window [class="copyq"] floating enable
 
 bindsym $mod+b exec firefox
+bindsym $mod+Shift+p exec --no-startup-id passmenu
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q sset Master 1%+ && pkill -SIGRTMIN+1 i3blocks
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer -q sset Master 1%- && pkill -SIGRTMIN+1 i3blocks
