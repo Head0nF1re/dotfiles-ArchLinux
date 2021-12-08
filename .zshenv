@@ -17,7 +17,7 @@ export WM="i3"
 export RANGER_LOAD_DEFAULT_RC="FALSE"
 
 # Path
-path=("$HOME/.local/bin" "$HOME/.local/bin/i3blocks" "$path[@]")
+path=("$HOME/.local/bin" "$HOME/.local/bin/i3blocks" "$HOME/.local/bin/flutter_package/bin" "$path[@]")
 export PATH
 
 # Start blinking
