@@ -17,6 +17,7 @@ export READER="evince"
 export WM="i3"
 
 export RANGER_LOAD_DEFAULT_RC="FALSE"
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'

@@ -12,8 +12,6 @@ call plug#begin()
     " >>>>> Color Scheme <<<<<
 
     Plug 'phanviet/vim-monokai-pro'
-    " Plug 'morhetz/gruvbox'
-    " Plug 'crusoexia/vim-monokai'
     " ----------------------------------------------------------------
 
 

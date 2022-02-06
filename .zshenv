@@ -15,9 +15,11 @@ export READER="evince"
 export WM="i3"
 
 export RANGER_LOAD_DEFAULT_RC="FALSE"
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
 
 # Path
-path=("$HOME/.local/bin" "$HOME/.local/bin/i3blocks" "$HOME/.local/bin/flutter_package/bin" "$path[@]")
+path=("$HOME/.local/bin" "$HOME/.local/bin/i3blocks"
+    "$HOME/.local/bin/flutter_package/bin" "$HOME/.dotnet/tools" "$path[@]")
 export PATH
 
 # Start blinking
