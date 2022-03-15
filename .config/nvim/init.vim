@@ -56,6 +56,7 @@ source ~/.config/nvim/general/general-settings.vim
 source ~/.config/nvim/plug-config/config-theme.vim
 source ~/.config/nvim/plug-config/config-vimwiki.vim
 source ~/.config/nvim/general/bindings.vim
+source ~/.config/nvim/general/custom-functions.vim
 source ~/.config/nvim/plug-config/config-coc.vim
 source ~/.config/nvim/plug-config/config-illuminate.vim
 source ~/.config/nvim/plug-config/config-fzf.vim

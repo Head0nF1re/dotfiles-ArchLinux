@@ -7,6 +7,9 @@ autocmd BufWritePre * %s/\s\+$//e
 command! BufOnly silent! execute "%bd|e#|bd#"
 nnoremap \q :BufOnly<CR>
 
+" nnoremap <M-f> :call FormatCurrentFile()<CR>
+nnoremap <M-f> :call CocAction('format')<CR>
+
 nnoremap <SPACE> <Nop>
 vnoremap <SPACE> <Nop>
 command! Q :q

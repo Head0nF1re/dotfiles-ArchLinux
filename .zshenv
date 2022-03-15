@@ -22,12 +22,14 @@ path=("$HOME/.local/bin" "$HOME/.local/bin/i3blocks"
     "$HOME/.local/bin/flutter_package/bin" "$HOME/.dotnet/tools" "$path[@]")
 export PATH
 
+#### https://invisible-island.net/ncurses/man/terminfo.5.html#h3-Predefined-Capabilities
+#### https://invisible-island.net/ncurses/man/terminfo.5.html#h3-Color-Handling
 # Start blinking
 export LESS_TERMCAP_mb=$(tput bold; tput setaf 2) # green
 # Start bold
 export LESS_TERMCAP_md=$(tput bold; tput setaf 2) # green
 # Start stand out
-export LESS_TERMCAP_so=$(tput bold; tput setaf 3) # yellow
+export LESS_TERMCAP_so=$(tput bold; tput setab 3; tput setaf 0) # yellow; black
 # End standout
 export LESS_TERMCAP_se=$(tput rmso; tput sgr0)
 # Start underline
