@@ -163,7 +163,7 @@ font:
   # spacing.
   offset:
     x: 0
-    y: 0
+    y: 5
 
   # Glyph offset determines the locations of the glyphs within their cells with
   # the default being at the bottom. Increasing `x` moves the glyph to the
@@ -224,7 +224,7 @@ colors:
       foreground: '#ffffff'
       background: '#000000'
 
-    bar:
+  footer_bar:
       background: '#c5c8c6'
       foreground: '#1d1f21'
 

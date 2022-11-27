@@ -13,3 +13,5 @@
     autocorrect = 0
 [credential]
 	helper = /usr/lib/git-core/git-credential-libsecret
+[alias]
+	conflicts = diff --name-only --diff-filter=U
